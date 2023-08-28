@@ -135,7 +135,7 @@ class Field {
   startGame() {
     // Set the starting position
     const mode = prompt(`Select Mode
-        Enter hard play Mode 1 or Enter any Key play Normal Mode : `);
+      Enter  "1" for to play hard Mode  or Enter any key for play normal mode : `);
     this.setStart();
 
     //<-----------Set Position HAT--------------->
